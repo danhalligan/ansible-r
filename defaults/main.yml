@@ -6,6 +6,8 @@ r_bioclite_url: https://bioconductor.org/biocLite.R
 r_install_dev: false
 r_install:
   - littler
+r_install_state: latest
+r_dependencies_state: latest
 
 r_packages_type: cran
 r_packages_repos: "{{ r_cran_mirror }}"
